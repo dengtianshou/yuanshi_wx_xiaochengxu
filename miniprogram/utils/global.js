@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getGlobalData = exports.setGlobalData = void 0;
+var globalData = {};
+function setGlobalData(key, value) {
+    globalData[key] = value;
+}
+exports.setGlobalData = setGlobalData;
+function getGlobalData(key) {
+    return globalData[key];
+}
+exports.getGlobalData = getGlobalData;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ2xvYmFsLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiZ2xvYmFsLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFBLElBQU0sVUFBVSxHQUFRLEVBQUUsQ0FBQztBQUUzQixTQUFnQixhQUFhLENBQUMsR0FBVyxFQUFFLEtBQWE7SUFDdEQsVUFBVSxDQUFDLEdBQUcsQ0FBQyxHQUFHLEtBQUssQ0FBQztBQUMxQixDQUFDO0FBRkQsc0NBRUM7QUFFRCxTQUFnQixhQUFhLENBQUMsR0FBVztJQUN2QyxPQUFPLFVBQVUsQ0FBQyxHQUFHLENBQUMsQ0FBQztBQUN6QixDQUFDO0FBRkQsc0NBRUMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBnbG9iYWxEYXRhOiBhbnkgPSB7fTtcblxuZXhwb3J0IGZ1bmN0aW9uIHNldEdsb2JhbERhdGEoa2V5OiBzdHJpbmcsIHZhbHVlOiBzdHJpbmcpIHtcbiAgZ2xvYmFsRGF0YVtrZXldID0gdmFsdWU7XG59XG5cbmV4cG9ydCBmdW5jdGlvbiBnZXRHbG9iYWxEYXRhKGtleTogc3RyaW5nKSB7XG4gIHJldHVybiBnbG9iYWxEYXRhW2tleV07XG59Il19

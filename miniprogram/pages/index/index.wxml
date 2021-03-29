@@ -1,0 +1,29 @@
+<view class="page-body">
+  <view class="page-section">
+    <view class="weui-cells__title">pk</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input value="{{pk}}" bindinput="bindPk" class="weui-input" auto-focus placeholder="pk"/>
+      </view>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="weui-cells__title">ps</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input value="{{ps}}" bindinput="bindPs" class="weui-input" placeholder="ps"/>
+      </view>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="weui-cells__title">当前Wi-Fi：{{SSID}}</view>
+    <view class="weui-cells__title">Wi-Fi密码</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input value="{{password}}" bindinput="bindPassword" class="weui-input" placeholder="Wi-Fi密码"/>
+      </view>
+    </view>
+  </view>
+
+  <button class="bottom-button" bindtap="next" type="primary">下一步</button>
+</view>

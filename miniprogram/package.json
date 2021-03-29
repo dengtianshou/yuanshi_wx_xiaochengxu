@@ -1,0 +1,15 @@
+{
+  "name": "miniprogram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gbk-encode": "^1.0.1",
+    "mini_program_gizwits_sdk": "^2.0.8-rc.1"
+  }
+}
